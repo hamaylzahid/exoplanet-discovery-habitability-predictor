@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# PyCharm project files
+.idea/
+*.iml
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+.env/
+
+# Ignore large or sensitive data
+*.log
+*.sqlite3
+*.csv
+*.zip
