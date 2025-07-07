@@ -1,7 +1,8 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hamaylzahid/exoplanet-discovery-habitability-predictor/main/docs/banner_exoplanet.png" alt="Exoplanet Discovery Banner" width="100%"/>
+  <img src="https://raw.githubusercontent.com/hamaylzahid/exoplanet-discovery-habitability-predictor/refs/heads/main/banner-exodiscovery.png" alt="Exoplanet Discovery Banner" width="100%"/>
 </p>
+
 
 <h1 align="center">🌌 Exoplanet Discovery & Habitability Predictor</h1><br>
 
@@ -31,8 +32,7 @@
 - [📈 Metrics & Results](#-metrics--results)  
 - [🔥 Bias Mitigation Strategy](#-bias-mitigation-strategy)  
 - [⚙️ Setup & Installation](#️-setup--installation)  
-- [📚 Concepts Covered](#-key-concepts-covered)  
-- [🚀 Deployment Notes](#-recommendations-for-ethical-deployment)  
+- [📚 Concepts Covered](#-key-concepts-covered)    
 - [🙏 Acknowledgments](#-acknowledgments)  
 - [📚 Core Libraries Used](#-core-libraries-used)  
 - [🤝 Contact & Contribution](#-contact--contribution)  
@@ -93,15 +93,48 @@ The dataset contains physical and observational features of confirmed exoplanets
 
 ---
 
-<br><h2 align="center">📈 Metrics & Results</h2><br>
+<br>
+<h2 align="center">📈 Metrics & Results</h2>
+<br>
 
-### Discovery Method Distribution
-![Discovery Method](https://raw.githubusercontent.com/hamaylzahid/exoplanet-discovery-habitability-predictor/main/docs/discovery_method_chart.png)
+<h3 align="center">🌌 1. Exoplanet Discovery Position Map</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hamaylzahid/exoplanet-discovery-habitability-predictor/main/postion%20discovery.png" alt="Exoplanet Discovery Position" width="80%">
+</p>
+<p align="center">
+  This graph visualizes the spatial distribution of discovered exoplanets across the observable sky, highlighting discovery hotspots based on telescope targeting.
+</p>
 
-### Mass vs Orbital Period
-![Mass vs Period](https://raw.githubusercontent.com/hamaylzahid/exoplanet-discovery-habitability-predictor/main/docs/mass_vs_orbit.png)
+---
 
-> Replace with actual plots from your notebook if needed.
+<h3 align="center">🌞 2. Distance from Host Star</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hamaylzahid/exoplanet-discovery-habitability-predictor/main/distace%20graph.png" alt="Distance from Host Star" width="80%">
+</p>
+<p align="center">
+  This plot shows the distances of exoplanets from their host stars, which is crucial for estimating surface temperature and potential habitability zones.
+</p>
+
+---
+
+<h3 align="center">🪐 3. Features of Detected Exoplanets</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hamaylzahid/exoplanet-discovery-habitability-predictor/main/features%20of%20exoplanet.png" alt="Exoplanet Features" width="80%">
+</p>
+<p align="center">
+  This visualization highlights key characteristics of exoplanets such as mass, orbital period, radius, and detection method frequency.
+</p>
+
+---
+
+<h3 align="center">🚀 4. 3D Orbital Motion of Exoplanets</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hamaylzahid/exoplanet-discovery-habitability-predictor/main/3D%20motion%20graph.png" alt="3D Orbital Motion" width="80%">
+</p>
+<p align="center">
+  A simulated 3D motion graph representing the dynamic orbits of exoplanets around their stars, giving insight into orbital mechanics and system structure.
+</p>
+
 
 ---
 
@@ -136,42 +169,37 @@ pip install -r requirements.txt
 ```
 ---
 
-<br><h2 align="center">📚 Key Concepts Covered</h2><br>
+<br>
+<h2 align="center">📚 Key Concepts Covered</h2>
+<br>
 
-Dive deep into each core concept with the descriptions below:
+<h4>🧹 Data Wrangling</h4>  
+Preprocessing raw exoplanet data for analysis and modeling.
 
-<h4>🧹 Data Wrangling & Transformation</h4>  
-Clean, normalize, and encode raw exoplanet data to prepare for analysis and modeling.
+<h4>🔍 Exploratory Analysis</h4>  
+Identifying patterns and distributions using visual insights.
 
-<h4>🔍 Exploratory Data Analysis (EDA)</h4>  
-Uncover hidden patterns and relationships through statistical summaries and visualizations.
+<h4>🤖 Predictive Modeling</h4>  
+Using ML algorithms to classify and predict habitability.
 
-<h4>🤖 Classification & Regression Modeling</h4>  
-Apply and compare algorithms (Logistic Regression, Decision Trees, etc.) to predict habitability scores.
+<h4>📊 Visualization</h4>  
+Designing clear, impactful plots to present findings.
 
-<h4>✨ Feature Selection</h4>  
-Identify and retain the most informative features while reducing noise and dimensionality.
-
-<h4>🔬 Scientific Data Interpretation</h4>  
-Translate model outputs into meaningful astrophysical insights, respecting observational limitations.
-
-<h4>📊 Data Visualization (Static & Comparative)</h4>  
-Craft clear, publication-ready plots to communicate findings and compare planetary attributes.
 
 ---
 
-<br><h2 align="center">🚀 Recommendations for Ethical Deployment</h2><br>
+<br>
+<h2 align="center">🚀 Ethical Deployment Guidelines</h2>
+<br>
 
-When applying machine learning to scientific domains like astrobiology and planetary research, ethical responsibility is essential. Here are some key considerations:
+<h4>🔭 Observational Limits</h4>  
+Acknowledge data gaps from telescopes, methods, and missions.
 
-<h4>🔭 Acknowledge Observational Limitations</h4>  
-Astronomical data is influenced by telescope sensitivity, discovery method preference, and mission-specific biases. These factors must be transparently addressed before drawing conclusions.
+<h4>🧪 Interpret with Caution</h4>  
+Treat predictions as probabilistic insights, not facts.
 
-<h4>🧪 Avoid Over-Interpreting Predictions</h4>  
-ML models offer probabilistic insights — not certainties. Treat habitability predictions as exploratory tools, not absolute scientific verdicts.
-
-<h4>⚠️ Communicate Uncertainty Clearly</h4>  
-Always include margins of error, confidence scores, and assumptions when presenting findings. Encourage peer validation and replication.
+<h4>⚠️ Communicate Uncertainty</h4>  
+Share confidence scores and assumptions openly.
 
 > 🌐 *Responsible AI in scientific domains means respecting the data's origin, understanding its limits, and promoting open science.*
 
@@ -197,17 +225,7 @@ Always include margins of error, confidence scores, and assumptions when present
   <img src="https://img.shields.io/badge/PyCharm-IDE-000000?style=flat-square&logo=pycharm&logoColor=white" />
 </p>
 
-<p align="center">
 
-| 🔧 Purpose           | 🧰 Libraries                         |
-|----------------------|-------------------------------------|
-| Data Analysis        | `pandas`, `numpy`                   |
-| Visualization        | `matplotlib`, `seaborn`             |
-| Machine Learning     | `scikit-learn`                      |
-| Notebook & IDE       | Jupyter Notebook, PyCharm           |
-| Data Export & Utils  | `csv`, `os`, `glob`                 |
-
-</p>
 ---
 
 <br><h2 align="center">🤝 Contact & Contribution</h2><br>
