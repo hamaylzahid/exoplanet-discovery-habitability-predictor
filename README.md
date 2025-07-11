@@ -3,7 +3,6 @@
   <img src="https://raw.githubusercontent.com/hamaylzahid/exoplanet-discovery-habitability-predictor/refs/heads/main/banner-exodiscovery.png" alt="Exoplanet Discovery Banner" width="100%"/>
 </p>
 
-
 <h1 align="center">🌌 Exoplanet Discovery & Habitability Predictor</h1><br>
 
 <p align="center">
@@ -11,6 +10,13 @@
   A Machine Learning-powered approach to identify potential life-supporting exoplanets using real astronomical datasets from NASA and observatories around the globe.
 </p>
 
+<p align="center">
+  <a href="https://exoplanet-discovery-habitability-predictor-7vaq2zm4ann8wycylyn.streamlit.app/">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App">
+  </a>
+  <br>
+  <strong><a href="https://exoplanet-discovery-habitability-predictor-7vaq2zm4ann8wycylyn.streamlit.app/">🔗 Live Demo Available</a></strong>
+</p>
 
 <p align="center">
   <a href="https://github.com/hamaylzahid/exoplanet-discovery-habitability-predictor/blob/main/LICENSE">
@@ -21,6 +27,7 @@
   <img src="https://img.shields.io/badge/Made%20With-Scikit--Learn%2C%20Pandas%2C%20Matplotlib-blue" alt="Stack Badge">
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square" alt="Project Status">
 </p>
+
 
 <br>
 <h2 align="center">📖 Table of Contents</h2><br>
