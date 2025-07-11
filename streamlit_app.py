@@ -10,7 +10,9 @@ st.title("🌌 Exoplanet Habitability Predictor")
 st.markdown("This app analyzes exoplanet data and predicts habitability potential using ML models.")
 
 # Load dataset
-df = pd.read_csv("exoplanet_data.csv")  # Adjust filename if needed
+
+df = pd.read_csv("all_exoplanets_2021.csv")
+
 st.write("### 📊 Sample Data", df.head())
 
 # Show EDA
